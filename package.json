@@ -1,0 +1,20 @@
+{
+  "name": "creatcli",
+  "version": "1.0.0",
+  "description": "create project cli",
+  "main": "index.js",
+  "bin": {
+    "creatcli": "src/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "wss",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^8.2.0",
+    "inquirer": "^8.2.0",
+    "node-fetch": "^2.6.2",
+    "shelljs": "^0.8.4"
+  }
+}
